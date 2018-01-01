@@ -1,6 +1,17 @@
 {
   "name": "microbe-traits",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "description": "Microbe Traits",
+  "repository": "cbdowell/microbe-traits",
+  "bugs": "https://github.com/cbdowell/microbe-traits/issues",
+  "homepage": "https://github.com/cbdowell/microbe-traits",
+  "license": "MIT",
+  "scripts": {
+    "push-changes": "node ./scripts/push-changes.js"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "shelljs": "^0.7.8",
+    "husky": "^0.14.3"
+  }
 }
